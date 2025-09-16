@@ -4,6 +4,14 @@ An AI-powered chatbot that leverages **Retrieval-Augmented Generation (RAG)** to
 
 This project allows you to upload a collection of documents (research papers, books, notes, etc.) and interact with them conversationally through an intelligent assistant.  
 
+## 🖥️ Demo  
+
+Here’s how the chatbot looks in action:  
+
+### Homepage  
+![Chatbot UI](Images/ui.png) 
+
+
 ---
 
 ## ✨ Features  
@@ -87,15 +95,34 @@ You can extend by dropping more PDFs or TXTs into:
 
   - Evaluation pipeline for RAG performance
 
-       
+## Contributing
 
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
+## 👤 Author
 
+Deepak Kumar
 ---
+  Here is my Contact Information 👉    
+-  My contact Email →  `dk0778671@gmail.com`
+-  My Linkedin profile → `www.linkedin.com/in/deepak-kumar-029781263`
+-  GitHub profile →  `github.com/Deepakkumar5570`
 
-⚡ Pro Tip: If you add **screenshots or demo GIFs** in a `docs/` folder and reference them in the README, your repo will look extra professional.  
+## 🛠️ Tech Stack  
 
-Do you want me to also create a **Demo section** in this README with placeholders for screenshots/GIFs?
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
+![LangChain](https://img.shields.io/badge/LangChain-1A1A1A?style=for-the-badge&logo=chainlink&logoColor=white)  
+![Gemini API](https://img.shields.io/badge/Gemini%20API-4285F4?style=for-the-badge&logo=google&logoColor=white)  
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)  
+![ChromaDB](https://img.shields.io/badge/ChromaDB-4E9A06?style=for-the-badge&logo=databricks&logoColor=white)  
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)  
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)  
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)  
+ 
+
+
+
+
 
 
 
