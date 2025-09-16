@@ -1,0 +1,5 @@
+.env
+data/pdfs
+data/txts
+chroma_db
+chroma_db/chroma.sqlite3
