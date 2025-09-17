@@ -1,4 +1,8 @@
 # 📚 Multi-Document RAG Chatbot with Gemini  
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/Deepakkumar5570/rag-multidoc-chatbot?style=social)](https://github.com/Deepakkumar5570/rag-multidoc-chatbot/stargazers)
+[![Issues](https://img.shields.io/github/issues/Deepakkumar5570/rag-multidoc-chatbot)](https://github.com/Deepakkumar5570/rag-multidoc-chatbot/issues)
 
 An AI-powered chatbot that leverages **Retrieval-Augmented Generation (RAG)** to answer queries from multiple PDF and text documents. Built with **LangChain**, **Google Gemini API**, and **ChromaDB** for embeddings and retrieval.  
 
@@ -118,6 +122,9 @@ Deepak Kumar
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)  
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)  
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)  
+
+## 
+- Copyright©️ Deepakkumar5570 Inc. All rights reserved.
  
 
 
