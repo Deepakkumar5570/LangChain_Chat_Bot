@@ -34,24 +34,29 @@ Here’s how the chatbot looks in action:
 
 ```bash
 rag-multidoc-chatbot/
+│── chroma_db/                # auto-generated vector database
 │── data/
-│   ├── pdfs/           # place your PDF documents here
-│   ├── txts/           # place your TXT documents here
-│── chroma_db/          # auto-generated vector database
+│   ├── pdfs/                 # place your PDF documents here
+│   ├── txts/                 # place your TXT documents here
+│── uploads/                # <== NEW (user uploaded docs stored here)
 │── src/
 │   ├── __init__.py
-│   ├── config.py       # API keys, model configs
-│   ├── data_loader.py  # load PDFs & TXTs
-│   ├── preprocess.py   # split & clean documents
-│   ├── embed_store.py  # create/load vectorstore
-│   ├── chatbot.py      # LangChain + Gemini pipeline
-│   ├── app.py          # Streamlit app
-│── rebuild_db.py       # script to rebuild embeddings
-│── requirements.txt    # dependencies
-│── .env                # environment variables (API keys, etc.)
-|--update_db.py
+│   ├── app.py              # Chatbot UI / API entry
+│   ├── chatbot.py           # LangChain + Gemini pipeline
+│   ├── config.py          # API keys, model configs
+│   ├── data_loader.py      # load PDFs & TXTs
+│   ├── preprocess.py       # split & clean documents
+│   ├── embed_store.py        # create/load vectorstore
+│   ├── upload_handler.py   # <== NEW (upload logic)
+│── update_db.py              # automatic detect the new data and stored in chroma db
+│── rebuild_db.py
+│── requirements.txt
+│── .env
+
 
 ```
+
+
 
 ## How To Use 
 
@@ -74,8 +79,10 @@ rag-multidoc-chatbot/
 start the chatbot 
 
         streamlit run src/app.py
-## Rebuild the database (after adding new documents)
+## Rebuild the database (after adding new documents) if want to full rebuilt database
         python rebuild_db.py
+## after adding new pdfs or texts(don't want rebuild,only for new inserted data)
+       python updated_db.py
 ##  📘 Dataset Used
 
 Currently trained on:
@@ -125,7 +132,7 @@ Deepak Kumar
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)  
 
 ## 
-- Copyright©️ Deepakkumar5570 Inc. All rights reserved.
+- Copyright©️ Deepak Kumar Inc. All rights reserved.
  
 
 
