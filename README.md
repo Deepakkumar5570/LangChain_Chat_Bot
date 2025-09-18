@@ -13,7 +13,7 @@ This project allows you to upload a collection of documents (research papers, bo
 Here’s how the chatbot looks in action:  
 
 ### Homepage  
-![Chatbot UI](Images/ui1.png) 
+![Chatbot UI](Images/ui2.png) 
 
 
 ---
