@@ -49,6 +49,7 @@ rag-multidoc-chatbot/
 │── rebuild_db.py       # script to rebuild embeddings
 │── requirements.txt    # dependencies
 │── .env                # environment variables (API keys, etc.)
+|--update_db.py
 
 ```
 
